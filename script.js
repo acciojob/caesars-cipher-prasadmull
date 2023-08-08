@@ -39,7 +39,7 @@ function rot13(encodedStr) {
 			decodedArr+=lookup.encodedStr[i];
 		}
 		else{
-			decodedArr+=encodedArr[i];
+			decodedArr+=encodedStr[i];
 		}
 	}
 	
